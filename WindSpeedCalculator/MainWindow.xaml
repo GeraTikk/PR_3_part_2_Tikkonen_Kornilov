@@ -1,0 +1,42 @@
+﻿<Window x:Class="WindSpeedCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindSpeedCalculator"
+        mc:Ignorable="d"
+        Title="WindSpeedCalculator" Height="500" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="head_dist" Text="Расстояние в метрах:" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="220" />
+        <TextBox Grid.Row="1" Grid.Column="2" x:Name="Distance" FontSize="20" PreviewTextInput="NumberValidationTextBox" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100" />
+
+        <TextBlock Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" x:Name="HeadTime" Text="Время в секундах:" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="220" />
+        <TextBox Grid.Row="2" Grid.Column="2" x:Name="Time" FontSize="20" PreviewTextInput="NumberValidationTextBox" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100" />
+
+        <TextBlock Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="3" x:Name="HeadChoose" Text="Выберите единицы измерения:" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="300" />
+        <RadioButton Grid.Row="2" Grid.Column="3" x:Name="ChooseMS" Content="м/с" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Height="30" Width="70"/>
+        <RadioButton Grid.Row="2" Grid.Column="5" x:Name="ChooseKMH" Content="км/ч" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Height="30" Width="70"/>
+
+        <Button Grid.Row="4" Grid.Column="5" x:Name="RadioButton" Content="Вычислить" Click="CalculateButton_Click" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+        <TextBlock Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" x:Name="head_ans" Text="Скорость ветра:" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="220" />
+        <TextBox Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" x:Name="Result" FontSize="20" Text="" VerticalAlignment="Center" HorizontalAlignment="Right" Width="350" />
+    </Grid>
+</Window>

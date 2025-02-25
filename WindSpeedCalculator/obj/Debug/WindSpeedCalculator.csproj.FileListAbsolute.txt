@@ -1,0 +1,15 @@
+D:\Coding\C#\WindSpeedCalculator\WindSpeedCalculator\obj\Debug\WindSpeedCalculator.csproj.AssemblyReference.cache
+D:\Coding\C#\WindSpeedCalculator\WindSpeedCalculator\obj\Debug\MainWindow.g.cs
+D:\Coding\C#\WindSpeedCalculator\WindSpeedCalculator\obj\Debug\App.g.cs
+D:\Coding\C#\WindSpeedCalculator\WindSpeedCalculator\obj\Debug\WindSpeedCalculator_MarkupCompile.cache
+D:\Coding\C#\WindSpeedCalculator\WindSpeedCalculator\obj\Debug\WindSpeedCalculator_MarkupCompile.lref
+D:\Coding\C#\WindSpeedCalculator\WindSpeedCalculator\bin\Debug\WindSpeedCalculator.exe.config
+D:\Coding\C#\WindSpeedCalculator\WindSpeedCalculator\bin\Debug\WindSpeedCalculator.exe
+D:\Coding\C#\WindSpeedCalculator\WindSpeedCalculator\bin\Debug\WindSpeedCalculator.pdb
+D:\Coding\C#\WindSpeedCalculator\WindSpeedCalculator\obj\Debug\MainWindow.baml
+D:\Coding\C#\WindSpeedCalculator\WindSpeedCalculator\obj\Debug\WindSpeedCalculator.g.resources
+D:\Coding\C#\WindSpeedCalculator\WindSpeedCalculator\obj\Debug\WindSpeedCalculator.Properties.Resources.resources
+D:\Coding\C#\WindSpeedCalculator\WindSpeedCalculator\obj\Debug\WindSpeedCalculator.csproj.GenerateResource.cache
+D:\Coding\C#\WindSpeedCalculator\WindSpeedCalculator\obj\Debug\WindSpeedCalculator.csproj.CoreCompileInputs.cache
+D:\Coding\C#\WindSpeedCalculator\WindSpeedCalculator\obj\Debug\WindSpeedCalculator.exe
+D:\Coding\C#\WindSpeedCalculator\WindSpeedCalculator\obj\Debug\WindSpeedCalculator.pdb
