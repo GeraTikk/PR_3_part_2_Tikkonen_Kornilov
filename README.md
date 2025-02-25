@@ -21,7 +21,5 @@
    - Настроено прерывание выполнения при возникновении исключений (например, деление на ноль).
 
 ## Скриншот работы приложения
+<img src="https://github.com/GeraTikk/PR_3_part_2_Tikkonen_Kornilov/blob/main/Screenshot%202025-02-25%20133113.png" width="400" height="200">
 
-!(https://i.imgur.com/your-screenshot-link.png)
-
-(Вставьте реальный скриншот вашего приложения.)
